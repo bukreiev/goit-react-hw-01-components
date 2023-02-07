@@ -1,4 +1,7 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+@import url(./components/Profile/Profile.css);
+@import url(./components/Data/dataStyle.css);
+@import url(./components/FriendsList/friendsStyle.css);
 
 body {
   margin: 0;
@@ -7,9 +10,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
 }
