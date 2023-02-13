@@ -30,7 +30,7 @@ code {
 }
 
 .container {
+  height: 100vh;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 40px;
+  gap: 10px;
 }
