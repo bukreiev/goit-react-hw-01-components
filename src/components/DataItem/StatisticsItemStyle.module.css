@@ -1,0 +1,12 @@
+.statLabel {
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.statPercentage {
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
