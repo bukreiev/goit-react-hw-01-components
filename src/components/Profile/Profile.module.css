@@ -4,7 +4,7 @@
   flex-direction: column;
   border: 1px solid #c6d7c0;
   border-radius: 10px;
-  width: 500px;
+  width: 400px;
   background-color: #e8fee1;
 }
 
@@ -12,15 +12,15 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .avatar {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   box-shadow: 1px 1px 40px -10px rgba(0, 0, 0, 0.75);
   border-radius: 125px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .name {
@@ -45,7 +45,7 @@
   color: #52704d;
   text-align: center;
   margin: 0;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
 }
 
 .stats {
@@ -60,10 +60,10 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 166px;
+  width: 100%;
   background-color: #d6eecf;
   border: 1px solid #c6d7c0;
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 .stats__item:first-child {

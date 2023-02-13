@@ -1,0 +1,50 @@
+.historyTable {
+  display: block;
+  height: 50vh;
+  border: 1px solid #c6d7c0;
+  border-radius: 10px;
+  background-color: #e8fee1;
+  border-collapse: collapse;
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+.historyTable::-webkit-scrollbar {
+  width: 15px;
+}
+.historyTable::-webkit-scrollbar-track {
+  background: #78a171;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.historyTable::-webkit-scrollbar-thumb {
+  background-color: #b4d0ab;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.tableHead {
+  vertical-align: middle;
+  border-color: inherit;
+  background-color: #d6eecf;
+  text-transform: uppercase;
+  height: 40px;
+  position: sticky;
+  top: 0px;
+  border: 1px solid #c6d7c0;
+}
+
+.headColumn {
+  width: 250px;
+  font-size: 28px;
+  border: 1px solid #c6d7c0;
+  color: #32412e;
+}
+
+.itemColumn {
+  border: 1px solid #c6d7c0;
+  padding: 5px;
+  text-align: center;
+  color: #465b40;
+}

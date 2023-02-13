@@ -20,7 +20,7 @@ export default function App() {
         color: '#010101',
       }}
     >
-        <Profile
+      <Profile
         username={user.username}
         tag={user.tag}
         location={user.location}
@@ -28,10 +28,12 @@ export default function App() {
         stats={user.stats}
         />
       
-        <Statistics title="Upload stats" stats={data}/>
+      <Statistics title="Upload stats" stats={data}/>
 
-        <FriendList friends={friends} />;
-        <TransactionHistory items={transactions} />;
+      <FriendList friends={friends} />
+      
+      <TransactionHistory items={transactions} />
+      
     </div>
   );
 };
